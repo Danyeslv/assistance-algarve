@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /contact/merci/
+
+Sitemap: https://www.expatalgarve.fr/sitemap.xml
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Disallow: /
