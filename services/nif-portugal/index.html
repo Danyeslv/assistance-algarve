@@ -38,30 +38,40 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Aide à l'obtention du NIF Portugal",
-        "description": "Accompagnement en français pour obtenir votre NIF (Número de Identificação Fiscal) au Portugal, que vous soyez en France ou déjà en Algarve.",
-        "provider": { "@type": "LocalBusiness", "name": "Expat Algarve Assistance" },
+        "@type": "LocalBusiness",
+        "@id": "https://www.expatalgarve.fr/#organization",
+        "name": "Expat Algarve Assistance",
+        "url": "https://www.expatalgarve.fr/",
         "areaServed": "Algarve, Portugal",
-        "serviceType": "Administrative assistance",
-        "url": "https://www.expatalgarve.fr/services/nif-portugal/",
+        "makesOffer": {
+          "@type": "Service",
+          "@id": "https://www.expatalgarve.fr/services/nif-portugal/#service",
+          "name": "Aide à l'obtention du NIF Portugal",
+          "description": "Accompagnement en français pour obtenir votre NIF (Número de Identificação Fiscal) au Portugal, que vous soyez en France ou déjà en Algarve.",
+          "serviceType": "Administrative assistance",
+          "url": "https://www.expatalgarve.fr/services/nif-portugal/",
+          "areaServed": "Algarve, Portugal"
+        },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "5",
-          "reviewCount": "2",
-          "bestRating": "5",
-          "worstRating": "1"
+          "ratingValue": 5,
+          "reviewCount": 2,
+          "ratingCount": 2,
+          "bestRating": 5,
+          "worstRating": 1
         },
         "review": [
           {
             "@type": "Review",
             "author": { "@type": "Person", "name": "Philippe" },
+            "itemReviewed": { "@id": "https://www.expatalgarve.fr/services/nif-portugal/#service" },
             "reviewBody": "Pour le NIF, j'avais besoin qu'on m'explique simplement. C'était clair, patient, et en français.",
             "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 }
           },
           {
             "@type": "Review",
             "author": { "@type": "Person", "name": "Nathalie" },
+            "itemReviewed": { "@id": "https://www.expatalgarve.fr/services/nif-portugal/#service" },
             "reviewBody": "Dossier préparé avant le rendez-vous : je suis arrivée sereine. L'accompagnement sur place m'a évité de mal comprendre les questions.",
             "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 }
           }
