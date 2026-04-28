@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
     <meta name="google-site-verification" content="r091arCTo_Rz-p64U8tQ8Gl8uFKxt8ZcjuPPio9Wj0s" />
     <!-- Remplacez +351 961 234 567 par votre numéro réel (recherche globale dans le site). -->
     <script type="speculationrules">
       {
-        "prerender": [{ "where": { "href_matches": "/contact/*" }, "eagerness": "moderate" }],
+        "prerender": [{ "where": { "href_matches": "/contac</*" }, "eagerness": "moderate" }],
         "prefetch": [
           {
-            "where": { "and": [{ "href_matches": "/*" }, { "not": { "href_matches": "/contact/merci/*" } }] },
+            "where": { "and": [{ "href_matches": "/*" }, { "not": { "href_matches": "/contac</merci/*" } }] },
             "eagerness": "conservative"
           }
         ]
       }
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Assistance Administrative Français en Algarve | Expatriés &amp; Retraités</title>
+    <title>Aide aux démarches en Algarve pour Français | Expat Algarve</title>
     <meta
       name="description"
-      content="Vous vous installez en Algarve ? Je vous accompagne dans toutes vos démarches administratives en français. NIF, CRUE, banque, SNS. Sans jargon, en confiance."
+      content="Vous vivez en Algarve ou vous y installez ? Accompagnement en français pour vos démarches : NIF, CRUE, banque, SNS, certificat de vie. Réponse sous 24h."
     />
     <link rel="canonical" href="https://www.expatalgarve.fr/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Assistance Administrative Français en Algarve | Expatriés &amp; Retraités" />
+    <meta property="og:title" content="Aide aux démarches en Algarve pour Français | Expat Algarve" />
     <meta
       property="og:description"
-      content="Vous vous installez en Algarve ? Je vous accompagne dans toutes vos démarches administratives en français. NIF, CRUE, banque, SNS. Sans jargon, en confiance."
+      content="Vous vivez en Algarve ou vous y installez ? Accompagnement en français pour vos démarches : NIF, CRUE, banque, SNS, certificat de vie. Réponse sous 24h."
     />
     <meta property="og:url" content="https://www.expatalgarve.fr/" />
     <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Expat Algarve Assistance" />
     <meta property="og:image" content="https://www.expatalgarve.fr/assets/images/og-default.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -42,88 +43,74 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@graph": [
+        "@type": "ProfessionalService",
+        "name": "Expat Algarve Assistance",
+        "description": "Aide aux démarches administratives en Algarve pour Français : NIF, CRUE, compte bancaire, SNS, certificat de vie, immatriculation.",
+        "url": "https://www.expatalgarve.fr/",
+        "image": "https://www.expatalgarve.fr/assets/images/anna-portrait.jpg",
+        "telephone": "+351961234567",
+        "email": "contact@expatalgarve.fr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "Algarve",
+          "addressCountry": "PT"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Lagos" },
+          { "@type": "City", "name": "Albufeira" },
+          { "@type": "City", "name": "Faro" },
+          { "@type": "City", "name": "Tavira" },
+          { "@type": "City", "name": "Portimão" },
+          { "@type": "AdministrativeArea", "name": "Algarve" }
+        ],
+        "availableLanguage": ["fr", "pt"],
+        "priceRange": "€€"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
           {
-            "@type": "LocalBusiness",
-            "name": "Expat Algarve Assistance",
-            "description": "Service d'assistance administrative en français pour expatriés et retraités français en Algarve, Portugal. Aide NIF, CRUE, banque, SNS, certificat de vie, immatriculation.",
-            "url": "https://www.expatalgarve.fr",
-            "telephone": "+351961234567",
-            "email": "contact@expatalgarve.fr",
-            "image": "https://www.expatalgarve.fr/assets/images/og-default.jpg",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Algarve",
-              "addressRegion": "Algarve",
-              "addressCountry": "PT"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 37.1,
-              "longitude": -8.2
-            },
-            "areaServed": [
-              { "@type": "City", "name": "Lagos" },
-              { "@type": "City", "name": "Albufeira" },
-              { "@type": "City", "name": "Faro" },
-              { "@type": "City", "name": "Tavira" },
-              { "@type": "City", "name": "Portimão" }
-            ],
-            "serviceArea": { "@type": "Place", "name": "Algarve, Portugal" },
-            "knowsLanguage": ["fr", "pt"],
-            "priceRange": "€€",
-            "openingHoursSpecification": {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-              "opens": "09:00",
-              "closes": "18:00"
-            },
-            "sameAs": ["https://www.facebook.com/expatalgarveassistance"]
+            "@type": "Question",
+            "name": "Faut-il parler portugais pour faire ses démarches en Algarve ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Non, ce n'est pas obligatoire. Avec un accompagnement francophone, vous pouvez préparer vos dossiers, traduire informellement vos documents et éviter les allers-retours inutiles auprès des administrations portugaises."
+            }
           },
           {
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "Faut-il parler portugais pour faire ses démarches en Algarve ?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Non, mais sans aide c'est très difficile. La plupart des administrations portugaises ne fonctionnent pas en français. C'est pourquoi je vous accompagne physiquement ou à distance pour toutes vos démarches."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Combien coûte votre service ?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Les tarifs varient selon la prestation. Le premier échange est gratuit. Consultez ma page tarifs pour les détails."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Pouvez-vous m'aider depuis la France avant mon arrivée ?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Oui, certaines démarches comme l'obtention du NIF peuvent être lancées à distance. Je vous guide étape par étape, même depuis la France."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Êtes-vous avocat ou comptable ?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Non. Je suis un assistant administratif, pas un professionnel du droit ou de la comptabilité. Pour les situations qui relèvent de ces domaines, je vous oriente vers des professionnels partenaires qualifiés."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Dans quelles villes de l'Algarve intervenez-vous ?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "J'interviens à Lagos, Albufeira, Faro, Tavira, Portimão et dans toute la région de l'Algarve."
-                }
-              }
-            ]
+            "@type": "Question",
+            "name": "Combien coûte un service d'aide aux démarches en Algarve ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Chaque prestation est à prix fixe et détaillée sur la page Tarifs. Le premier contact et la définition de votre besoin sont gratuits."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Pouvez-vous aider depuis la France avant l'arrivée au Portugal ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Oui, plusieurs démarches peuvent être préparées à distance, notamment l'obtention du NIF Portugal dans de nombreux cas. Le périmètre exact est défini lors du premier échange."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Êtes-vous avocat ou comptable au Portugal ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Non. Le service est une assistance administrative pour expatriés français : formulaires, rendez-vous, coordination. Pour les questions juridiques ou comptables, orientation vers un professionnel adapté."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dans quelles villes de l'Algarve intervenez-vous ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "L'accompagnement couvre Lagos, Albufeira, Faro, Tavira, Portimão et toute la région de l'Algarve."
+            }
           }
         ]
       }
@@ -162,7 +149,7 @@
             <li><a href="./">Accueil</a></li>
             <li class="nav-dropdown-wrap">
               <button
-                type="button"
+                <ype="button"
                 class="nav-dropdown-toggle"
                 aria-expanded="false"
                 aria-controls="dropdown-services"
@@ -180,7 +167,7 @@
                 <li><a href="services/pack-installation/">Pack installation</a></li>
               </ul>
             </li>
-            <li><a href="tarifs/">Tarifs</a></li>
+            <li><a href="tarifs/">voir les tarifs en détail</a></li>
             <li><a href="blog/">Blog</a></li>
             <li><a href="contact/">Contact</a></li>
             <li class="nav-item-help">
@@ -196,10 +183,10 @@
         <div class="hero-home">
           <div class="hero-home__copy">
             <p class="hero-kicker">Assistance administrative · 100 % français · Algarve</p>
-            <h1 id="titre-hero">Votre assistant administratif francophone en Algarve</h1>
+            <h1 id="titre-hero">Aide aux démarches administratives en Algarve, en français</h1>
             <p class="lead hero-lead">
-              Vous arrivez en Algarve ou vous y vivez déjà ? Je m'occupe de vos démarches en français — NIF, CRUE, banque,
-              SNS et plus encore. Moins de jargon, plus de clarté.
+              Vous vivez déjà en Algarve ou vous préparez votre installation ? Je m'occupe de vos démarches en français — NIF,
+              CRUE, banque, SNS et plus encore.
             </p>
             <div class="cta-group">
               <a class="btn-primary" href="contact/">Prendre contact</a>
@@ -218,7 +205,7 @@
                 src="assets/images/hero-coast.jpg"
                 width="960"
                 height="720"
-                alt="Lumière du soir sur la côte atlantique — ambiance Algarve"
+                alt="Côte de l'Algarve au Portugal au coucher du soleil"
                 fetchpriority="high"
               />
             </figure>
@@ -229,7 +216,7 @@
                 src="assets/images/anna-portrait.jpg"
                 width="160"
                 height="160"
-                alt="Anna, votre assistante administrative francophone en Algarve"
+                alt="Anna, assistante administrative francophone en Algarve"
               />
               <p class="hero-name">Anna</p>
               <ul class="hero-lines">
@@ -245,7 +232,7 @@
       <!-- Section 2 PROBLÈME -->
       <section class="section-bg section-wedge-top" id="probleme" aria-labelledby="titre-probleme">
         <div class="container">
-          <h2 id="titre-probleme" class="section-heading">Installer en Algarve sans parler portugais, c'est compliqué</h2>
+          <h2 id="titre-probleme" class="section-heading">Vivre en Algarve sans parler portugais : les vrais blocages</h2>
           <div class="problem-grid problem-grid--stagger" style="margin-top: 2rem">
             <div class="problem-item problem-item--lift">
               <div class="problem-icon" aria-hidden="true">🗣️</div>
@@ -269,7 +256,7 @@
       <!-- Section 3 SERVICES -->
       <section class="section-white section-offset-rail" id="services-apercu" aria-labelledby="titre-services">
         <div class="container">
-          <h2 id="titre-services" class="section-heading section-heading--rail">Ce que je fais pour vous</h2>
+          <h2 id="titre-services" class="section-heading section-heading--rail">Mes services d'aide aux démarches en Algarve</h2>
           <p class="lead">
             Assistance et accompagnement aux démarches : je ne remplace pas un avocat ni un comptable, mais je peux simplifier
             votre quotidien administratif en Algarve.
@@ -279,47 +266,47 @@
               <div class="service-card-icon" aria-hidden="true">#️⃣</div>
               <h3>NIF</h3>
               <p>Dossier, rendez-vous et accompagnement pour votre numéro fiscal portugais.</p>
-              <a class="cta" href="services/nif-portugal/">Aide NIF Portugal →</a>
+              <a class="cta" href="services/nif-portugal/">Obtenir mon NIF au Portugal</a>
             </div>
             <div class="card bento-services__cell bento-services__cell--sm">
               <div class="service-card-icon" aria-hidden="true">🏛️</div>
               <h3>CRUE</h3>
               <p>Inscription communale : formulaires et présence à la Câmara si besoin.</p>
-              <a class="cta" href="services/crue-portugal/">Service CRUE →</a>
+              <a class="cta" href="services/crue-portugal/">Demander mon CRUE Portugal</a>
             </div>
             <div class="card bento-services__cell bento-services__cell--sm">
               <div class="service-card-icon" aria-hidden="true">🏦</div>
               <h3>Compte bancaire</h3>
               <p>Préparation du dossier et présence le jour du rendez-vous en agence.</p>
-              <a class="cta" href="services/compte-bancaire/">Ouverture de compte →</a>
+              <a class="cta" href="services/compte-bancaire/">Ouvrir un compte bancaire au Portugal</a>
             </div>
             <div class="card bento-services__cell bento-services__cell--sm">
               <div class="service-card-icon" aria-hidden="true">⚕️</div>
               <h3>SNS (santé)</h3>
               <p>Accompagnement au Centro de Saúde et aide sur les formulaires.</p>
-              <a class="cta" href="services/sns-sante/">Inscription SNS →</a>
+              <a class="cta" href="services/sns-sante/">M'inscrire au SNS au Portugal</a>
             </div>
             <div class="card bento-services__cell bento-services__cell--sm">
               <div class="service-card-icon" aria-hidden="true">✉️</div>
               <h3>Certificat de vie</h3>
               <p>Coordination pour la signature et l'envoi selon votre caisse.</p>
-              <a class="cta" href="services/certificat-vie/">Certificat de vie →</a>
+              <a class="cta" href="services/certificat-vie/">Faire mon certificat de vie au Portugal</a>
             </div>
             <div class="card bento-services__cell bento-services__cell--sm">
               <div class="service-card-icon" aria-hidden="true">🚗</div>
               <h3>Immatriculation</h3>
               <p>Dossier véhicule et étapes auprès des organismes compétents.</p>
-              <a class="cta" href="services/immatriculation/">Immatriculation →</a>
+              <a class="cta" href="services/immatriculation/">Immatriculer mon véhicule au Portugal</a>
             </div>
             <div class="card bento-services__cell bento-services__cell--wide">
               <div class="service-card-icon" aria-hidden="true">📦</div>
               <h3>Pack installation complète</h3>
               <p>Un seul interlocuteur francophone pour coordonner vos démarches d'arrivée.</p>
-              <a class="cta" href="services/pack-installation/">Pack installation →</a>
+              <a class="cta" href="services/pack-installation/">Voir le pack installation en Algarve</a>
             </div>
           </div>
           <p style="margin-top: 2rem; margin-bottom: 0">
-            <a href="services/">Vue d'ensemble des services d'assistance administrative</a> · <a href="tarifs/">Tarifs</a>
+            <a href="services/">Vue d'ensemble des services d'assistance administrative</a> · <a href="tarifs/">voir les tarifs en détail</a>
           </p>
         </div>
       </section>
@@ -327,7 +314,7 @@
       <!-- Section 4 POUR QUI -->
       <section class="section-accent-light section-edge-top" id="pour-qui" aria-labelledby="titre-pour-qui">
         <div class="container">
-          <h2 id="titre-pour-qui" class="section-heading">Fait pour vous si…</h2>
+          <h2 id="titre-pour-qui" class="section-heading">À qui s'adresse mon accompagnement en Algarve</h2>
           <div class="profiles" style="margin-top: 2rem">
             <div class="card profile-card">
               <figure class="profile-card__visual">
@@ -335,7 +322,7 @@
                   src="assets/images/profile-prep.jpg"
                   width="600"
                   height="300"
-                  alt="Préparation d'un départ : valises et organisation avant l'installation au Portugal"
+                  alt="Préparer son expatriation en Algarve depuis la France"
                   loading="lazy"
                 />
               </figure>
@@ -353,7 +340,7 @@
                   src="assets/images/profile-arrival.jpg"
                   width="600"
                   height="300"
-                  alt="Accueil chaleureux : nouvelle vie en Algarve après l'arrivée"
+                  alt="Arriver en Algarve : démarches administratives à faire"
                   loading="lazy"
                 />
               </figure>
@@ -371,7 +358,7 @@
                   src="assets/images/profile-installed.jpg"
                   width="600"
                   height="300"
-                  alt="Intérieur de maison confortable, déjà bien installé en Algarve"
+                  alt="Vivre en Algarve : aide pour démarches ponctuelles"
                   loading="lazy"
                 />
               </figure>
@@ -400,7 +387,7 @@
       <!-- Section 6 AVIS -->
       <section class="section-bg section-avis-home" id="temoignages" aria-labelledby="titre-avis">
         <div class="container">
-          <h2 id="titre-avis" class="section-heading">Ils m'ont fait confiance</h2>
+          <h2 id="titre-avis" class="section-heading">Avis de Français accompagnés en Algarve</h2>
           <p class="lead">Retours de clients (prénoms modifiés).</p>
           <blockquote class="testimonial">
             <p>
@@ -428,7 +415,7 @@
       <!-- Section 7 CTA -->
       <section class="cta-final" id="cta-final" aria-labelledby="titre-cta">
         <div class="container">
-          <h2 id="titre-cta" class="section-heading">Un premier échange gratuit pour commencer</h2>
+          <h2 id="titre-cta" class="section-heading">Premier échange gratuit pour vos démarches en Algarve</h2>
           <p>Dites-moi où vous en êtes : je vous réponds sous 24h, sans engagement.</p>
           <a class="btn-primary" href="contact/">Parlons-en →</a>
         </div>
@@ -437,18 +424,18 @@
       <!-- Section 8 FAQ -->
       <section class="section-white faq" id="faq" aria-labelledby="titre-faq">
         <div class="container">
-          <h2 id="titre-faq" class="section-heading">Questions fréquentes</h2>
+          <h2 id="titre-faq" class="section-heading">Questions fréquentes sur l'aide aux démarches en Algarve</h2>
           <details>
             <summary>Faut-il parler portugais pour faire ses démarches en Algarve ?</summary>
             <p>
               Ce n'est pas obligatoire, mais sans accompagnement c'est souvent décourageant. Je peux vous aider à préparer,
-              traduire informellement et éviter les allers-retours inutiles.
+              <raduire informellement et éviter les allers-retours inutiles.
             </p>
           </details>
           <details>
             <summary>Combien coûte votre service ?</summary>
             <p>
-              Chaque prestation est à prix fixe sur la page <a href="tarifs/">tarifs</a>. Le premier contact est gratuit.
+              Chaque prestation est à prix fixe sur la page <a href="tarifs/">consulter les tarifs</a>. Le premier contact est gratuit.
             </p>
           </details>
           <details>
