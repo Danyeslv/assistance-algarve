@@ -167,7 +167,7 @@
                 <li><a href="services/pack-installation/">Pack installation</a></li>
               </ul>
             </li>
-            <li><a href="tarifs/">voir les tarifs en détail</a></li>
+            <li><a href="tarifs/">Tarifs</a></li>
             <li><a href="blog/">Blog</a></li>
             <li><a href="contact/">Contact</a></li>
             <li class="nav-item-help">
@@ -306,7 +306,7 @@
             </div>
           </div>
           <p style="margin-top: 2rem; margin-bottom: 0">
-            <a href="services/">Vue d'ensemble des services d'assistance administrative</a> · <a href="tarifs/">voir les tarifs en détail</a>
+            <a href="services/">Vue d'ensemble des services d'assistance administrative</a> · <a href="tarifs/">Tarifs</a>
           </p>
         </div>
       </section>
@@ -422,6 +422,28 @@
       </section>
 
       <!-- Section 8 FAQ -->
+      <section class="mini-form-section" id="contact-rapide">
+        <div class="mini-form-container">
+          <h2>Une question rapide ? Réponse en 24h.</h2>
+          <p class="mini-form-subtitle">Dites-moi en une phrase où vous en êtes. Je vous réponds personnellement, en français, sans engagement.</p>
+          <form action="/contact/" method="get" class="mini-form">
+            <div class="mini-form-group">
+              <label for="prenom-rapide">Votre prénom</label>
+              <input type="text" id="prenom-rapide" name="prenom" required placeholder="Marie" autocomplete="given-name">
+            </div>
+            <div class="mini-form-group">
+              <label for="email-rapide">Votre email</label>
+              <input type="email" id="email-rapide" name="email" required placeholder="marie@exemple.fr" autocomplete="email">
+            </div>
+            <div class="mini-form-group">
+              <label for="situation-rapide">En une phrase, où en êtes-vous ?</label>
+              <textarea id="situation-rapide" name="situation" required rows="3" placeholder="Ex : Je m'installe à Lagos en septembre, j'ai besoin d'aide pour le NIF et la banque."></textarea>
+            </div>
+            <button type="submit" class="mini-form-submit">Recevoir une réponse en 24h →</button>
+            <p class="mini-form-trust">✓ Sans engagement &nbsp;·&nbsp; ✓ 100% gratuit &nbsp;·&nbsp; ✓ Confidentiel</p>
+          </form>
+        </div>
+      </section>
       <section class="section-white faq" id="faq" aria-labelledby="titre-faq">
         <div class="container">
           <h2 id="titre-faq" class="section-heading">Questions fréquentes sur l'aide aux démarches en Algarve</h2>
@@ -502,5 +524,8 @@
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
     </script>
-  </body>
+  <a href="/contact/" class="sticky-cta-mobile" aria-label="Demander de l'aide en français">
+  <span class="sticky-cta-icon">📞</span>
+  <span class="sticky-cta-text">Demander de l'aide — Réponse 24h</span>
+</a></body>
 </html>

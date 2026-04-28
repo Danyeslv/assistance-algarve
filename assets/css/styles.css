@@ -1841,3 +1841,227 @@ main#contenu > article.container > section + section {
   border-top: 1px solid rgba(224, 149, 45, 0.22);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55);
 }
+
+.sticky-cta-mobile {
+  display: none;
+  position: fixed;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+  background: #f5b800;
+  color: #0a2540;
+  padding: 14px 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+  z-index: 9999;
+  transition: transform 0.2s ease;
+}
+
+.sticky-cta-mobile:hover, .sticky-cta-mobile:active {
+  transform: translateY(-2px);
+}
+
+.sticky-cta-icon {
+  margin-right: 6px;
+}
+
+@media (max-width: 768px) {
+  .sticky-cta-mobile {
+    display: block;
+  }
+  body {
+    padding-bottom: 80px;
+  }
+}
+
+.mini-form-section {
+  background: #f5f7fa;
+  padding: 60px 20px;
+}
+
+.mini-form-container {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mini-form-subtitle {
+  margin-bottom: 32px;
+  color: #4a5568;
+}
+
+.mini-form {
+  text-align: left;
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.mini-form-group {
+  margin-bottom: 20px;
+}
+
+.mini-form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #0a2540;
+}
+
+.mini-form-group input,
+.mini-form-group textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.mini-form-group input:focus,
+.mini-form-group textarea:focus {
+  outline: none;
+  border-color: #f5b800;
+  box-shadow: 0 0 0 3px rgba(245,184,0,0.15);
+}
+
+.mini-form-submit {
+  width: 100%;
+  background: #f5b800;
+  color: #0a2540;
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.mini-form-submit:hover {
+  transform: translateY(-2px);
+}
+
+.mini-form-trust {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 14px;
+  color: #718096;
+}
+
+.prix-banner {
+  display: inline-flex;
+  flex-direction: column;
+  background: #fff8e1;
+  border-left: 4px solid #f5b800;
+  padding: 16px 24px;
+  border-radius: 4px;
+  margin: 24px 0 32px;
+  align-items: flex-start;
+}
+
+.prix-label {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #b8860b;
+  font-weight: 600;
+}
+
+.prix-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0a2540;
+  margin: 4px 0;
+}
+
+.prix-detail {
+  font-size: 14px;
+  color: #4a5568;
+}
+
+.prix-detail a {
+  color: #0a2540;
+  text-decoration: underline;
+}
+
+.cta-contextuel {
+  background: #f0f7ff;
+  border-radius: 12px;
+  padding: 24px 28px;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+@media (min-width: 768px) {
+  .cta-contextuel {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.cta-contextuel-text {
+  margin: 0;
+  font-size: 16px;
+  color: #0a2540;
+  flex: 1;
+}
+
+.cta-contextuel-btn {
+  background: #f5b800;
+  color: #0a2540;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform 0.2s;
+}
+
+.cta-contextuel-btn:hover {
+  transform: translateY(-2px);
+}
+
+.cta-final-section {
+  background: linear-gradient(135deg, #0a2540 0%, #1a3a5c 100%);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cta-final-section h2 {
+  color: white;
+  margin-bottom: 12px;
+}
+
+.cta-final-section p {
+  color: #cbd5e0;
+  font-size: 18px;
+  margin-bottom: 28px;
+}
+
+.cta-final-btn {
+  display: inline-block;
+  background: #f5b800;
+  color: #0a2540;
+  padding: 16px 36px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 17px;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.cta-final-btn:hover {
+  transform: translateY(-2px);
+}

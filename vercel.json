@@ -1,0 +1,54 @@
+{
+    "redirects":  [
+                      {
+                          "destination":  "/services/nif-portugal/",
+                          "permanent":  true,
+                          "source":  "/blog/nif-portugal-comment-obtenir-guide"
+                      },
+                      {
+                          "destination":  "/services/nif-portugal/",
+                          "permanent":  true,
+                          "source":  "/blog/nif-portugal-comment-obtenir-guide/"
+                      },
+                      {
+                          "destination":  "/services/crue-portugal/",
+                          "permanent":  true,
+                          "source":  "/blog/crue-portugal-guide-francais"
+                      },
+                      {
+                          "destination":  "/services/crue-portugal/",
+                          "permanent":  true,
+                          "source":  "/blog/crue-portugal-guide-francais/"
+                      },
+                      {
+                          "destination":  "/services/compte-bancaire/",
+                          "permanent":  true,
+                          "source":  "/blog/compte-bancaire-portugal-expatrie"
+                      },
+                      {
+                          "destination":  "/services/compte-bancaire/",
+                          "permanent":  true,
+                          "source":  "/blog/compte-bancaire-portugal-expatrie/"
+                      },
+                      {
+                          "destination":  "/services/certificat-vie/",
+                          "permanent":  true,
+                          "source":  "/blog/certificat-vie-portugal-retraite"
+                      },
+                      {
+                          "destination":  "/services/certificat-vie/",
+                          "permanent":  true,
+                          "source":  "/blog/certificat-vie-portugal-retraite/"
+                      },
+                      {
+                          "destination":  "/",
+                          "permanent":  true,
+                          "source":  "/blog/vie-retraite-algarve-temoignages"
+                      },
+                      {
+                          "destination":  "/",
+                          "permanent":  true,
+                          "source":  "/blog/vie-retraite-algarve-temoignages/"
+                      }
+                  ]
+}
