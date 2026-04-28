@@ -2065,3 +2065,17 @@ main#contenu > article.container > section + section {
 .cta-final-btn:hover {
   transform: translateY(-2px);
 }
+.conversion-2026-links,
+.conversion-2026-solutions,
+.conversion-cta { padding: 28px 0; }
+.conversion-2026-links p,
+.conversion-2026-solutions p,
+.conversion-cta p { margin: 0 0 14px; }
+.conversion-table-wrap { overflow-x: auto; }
+.conversion-table { width: 100%; border-collapse: collapse; background: #fff; }
+.conversion-table th,
+.conversion-table td { border: 1px solid #d8e0ea; padding: 10px 12px; text-align: left; }
+.conversion-table th { background: #f0f7ff; color: #0a2540; }
+.conversion-cta { background: #f0f7ff; }
+.conversion-cta .btn-primary,
+.conversion-cta-top .btn-primary { display: inline-block; }
