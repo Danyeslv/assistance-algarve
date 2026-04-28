@@ -49,6 +49,16 @@
                           "destination":  "/",
                           "permanent":  true,
                           "source":  "/blog/vie-retraite-algarve-temoignages/"
+                      },
+                      {
+                          "destination":  "/",
+                          "permanent":  true,
+                          "source":  "/a-propos-anna"
+                      },
+                      {
+                          "destination":  "/",
+                          "permanent":  true,
+                          "source":  "/a-propos-anna/"
                       }
                   ]
 }
