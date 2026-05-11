@@ -2032,6 +2032,94 @@ main#contenu > article.container > section + section {
   transform: translateY(-2px);
 }
 
+.cta-contextuel-large {
+  background: linear-gradient(135deg, #f0f7ff 0%, #e8f2fc 100%);
+  border: 1px solid rgba(10, 37, 64, 0.12);
+  border-radius: 14px;
+  padding: 28px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  box-shadow: var(--shadow-md, 0 8px 24px rgba(10, 37, 64, 0.08));
+}
+
+.cta-contextuel-large h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #0a2540;
+}
+
+.cta-contextuel-large p {
+  margin: 0;
+  color: #1a2f4a;
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+@media (min-width: 768px) {
+  .cta-contextuel-large {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+  }
+}
+
+.zones-grid {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px 20px;
+}
+
+.zones-grid li {
+  margin: 0;
+  padding: 12px 16px;
+  background: #f8fafc;
+  border-radius: 10px;
+  border: 1px solid rgba(10, 37, 64, 0.08);
+  color: #0a2540;
+  font-weight: 500;
+}
+
+.pillar-table-wrap {
+  overflow-x: auto;
+  margin-top: 1.5rem;
+}
+
+.pillar-pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(10, 37, 64, 0.06);
+}
+
+.pillar-pricing-table th,
+.pillar-pricing-table td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.pillar-pricing-table th {
+  background: #0a2540;
+  color: #fff;
+  font-weight: 600;
+}
+
+.pillar-pricing-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.pillar-pricing-table tbody tr:hover {
+  background: #fffbeb;
+}
+
 .cta-final-section {
   background: linear-gradient(135deg, #0a2540 0%, #1a3a5c 100%);
   color: white;
