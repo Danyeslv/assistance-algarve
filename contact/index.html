@@ -67,7 +67,7 @@
           "@type": "LocalBusiness",
           "name": "Expat Algarve Assistance",
           "telephone": "+351965780081",
-          "email": "contact@expatalgarve.fr",
+          "email": "expat.algarve@gmail.com",
           "url": "https://www.expatalgarve.fr",
           "contactPoint": {
             "@type": "ContactPoint",
@@ -136,11 +136,108 @@
               Vous trouverez aussi un panorama complet de l'aide francophone aux démarches sur
               <a href="/aide-francophone-algarve/">cette page dédiée</a>.
             </p>
-            <p>Email : <a href="mailto:contact@expatalgarve.fr">contact@expatalgarve.fr</a> · Téléphone : <a href="tel:+351965780081">+351 965 780 081</a></p>
+            <p>Email : <a href="mailto:expat.algarve@gmail.com">expat.algarve@gmail.com</a> · Téléphone : <a href="tel:+351965780081">+351 965 780 081</a></p>
           </div>
           <figure class="page-intro__figure">
             <img src="../assets/images/photo-meeting.jpg" width="800" height="600" alt="Échange convivial autour d'un rendez-vous et de documents" loading="eager" />
           </figure>
+        </div>
+      </section>
+      <section class="section-white">
+        <div class="container">
+          <form
+            class="contact-form"
+            name="contact"
+            method="POST"
+            action="https://formspree.io/f/mzeborak"
+          >
+            <input type="hidden" name="_subject" value="Nouveau contact via expatalgarve.fr">
+            <input type="hidden" name="_next" value="https://www.expatalgarve.fr/contact/merci/">
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+            <div class="form-header">
+              <h2>Formulaire</h2>
+              <p>Gratuit et sans engagement. Je vous réponds en moins de 24h.</p>
+            </div>
+            <div class="form-group">
+              <label for="prenom">Votre prénom *</label>
+              <input type="text" id="prenom" name="prenom" placeholder="Marie" required autocomplete="given-name" />
+            </div>
+            <div class="form-group">
+              <label for="situation">Votre situation *</label>
+              <select id="situation" name="situation" required>
+                <option value="">Choisissez votre situation</option>
+                <option value="en-france">Je suis encore en France et je prépare mon arrivée</option>
+                <option value="arrive-recemment">Je viens d'arriver en Algarve</option>
+                <option value="deja-installe">Je vis déjà en Algarve depuis un moment</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="besoin">De quoi avez-vous besoin ? *</label>
+              <select id="besoin" name="besoin" required>
+                <option value="">Votre besoin principal</option>
+                <option value="nif">Obtenir mon NIF</option>
+                <option value="crue">Obtenir mon CRUE</option>
+                <option value="banque">Ouvrir un compte bancaire</option>
+                <option value="sante">M'inscrire au système de santé</option>
+                <option value="vehicule">Immatriculer mon véhicule</option>
+                <option value="certificat-vie">Certificat de vie</option>
+                <option value="pack">Pack installation complète</option>
+                <option value="autre">Autre démarche</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Décrivez votre situation (facultatif)</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Ex. : Je prends ma retraite en juillet et je m'installe à Lagos. J'ai besoin d'aide pour les premières démarches."
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <label for="contact-pref">Comment vous contacter ? *</label>
+              <input
+                type="text"
+                id="contact-pref"
+                name="contact-pref"
+                placeholder="E-mail ou téléphone"
+                required
+                autocomplete="email"
+              />
+            </div>
+            <div class="form-trust">
+              <span>✓ Réponse gratuite sous 24h</span>
+              <span>✓ Aucun engagement</span>
+              <span>✓ Données confidentielles</span>
+            </div>
+            <button type="submit" class="btn-primary">Envoyer ma demande</button>
+            <div class="security-badges" aria-label="Réassurance">
+              <div class="badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M12 3l7 4v5c0 5-3.5 9-7 10-3.5-1-7-5-7-10V7l7-4z" />
+                  <path d="M9 12l2 2 4-4" />
+                </svg>
+                <span>Données confidentielles</span>
+              </div>
+              <div class="badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M4 4h16v12H4zM2 8h20M8 20h8" />
+                </svg>
+                <span>Service par un Français</span>
+              </div>
+              <div class="badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 7v6l4 2" />
+                </svg>
+                <span>Réponse sous 24h</span>
+              </div>
+            </div>
+          </form>
+          <p style="margin-top: 1.5rem; font-size: 0.95rem; color: var(--color-text-muted)">
+            Si le formulaire ne fonctionne pas sur votre hébergement, écrivez-moi directement à
+            <a href="mailto:expat.algarve@gmail.com">expat.algarve@gmail.com</a> en copiant les champs ci-dessus.
+          </p>
         </div>
       </section>
       <section class="section-bg">

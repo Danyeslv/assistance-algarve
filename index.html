@@ -48,7 +48,7 @@
         "url": "https://www.expatalgarve.fr/",
         "image": "https://www.expatalgarve.fr/assets/images/andreia-portrait.jpg",
         "telephone": "+351965780081",
-        "email": "contact@expatalgarve.fr",
+        "email": "expat.algarve@gmail.com",
         "address": {
           "@type": "PostalAddress",
           "addressRegion": "Algarve",
@@ -504,7 +504,10 @@
         <div class="mini-form-container">
           <h2>Une question rapide ? Réponse en 24h.</h2>
           <p class="mini-form-subtitle">Dites-moi en une phrase où vous en êtes. Je vous réponds personnellement, en français, sans engagement.</p>
-          <form action="/contact/" method="get" class="mini-form">
+          <form action="https://formspree.io/f/mzeborak" method="POST" class="mini-form">
+            <input type="hidden" name="_subject" value="Contact rapide via home expatalgarve.fr">
+            <input type="hidden" name="_next" value="https://www.expatalgarve.fr/contact/merci/">
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
             <div class="mini-form-group">
               <label for="prenom-rapide">Votre prénom</label>
               <input type="text" id="prenom-rapide" name="prenom" required placeholder="Marie" autocomplete="given-name">
@@ -589,7 +592,7 @@
           <h3>Contact</h3>
           <p class="footer-zones">Zones : Lagos, Albufeira, Faro, Tavira, Portimão, Algarve</p>
           <p>
-            <a href="mailto:contact@expatalgarve.fr">contact@expatalgarve.fr</a><br />
+            <a href="mailto:expat.algarve@gmail.com">expat.algarve@gmail.com</a><br />
             <a class="phone-link" href="tel:+351965780081">+351 965 780 081</a>
           </p>
         </div>
