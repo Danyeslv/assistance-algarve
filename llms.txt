@@ -1,22 +1,28 @@
 # Expat Algarve Assistance
 
-> Service d'assistance administrative francophone pour expatriés et retraités français en Algarve, Portugal. Aide aux démarches NIF, CRUE, compte bancaire, SNS, certificat de vie et immatriculation véhicule. Service humain, sans conseil juridique ni fiscal.
+> Service d'assistance administrative francophone pour expatriés et retraités français en Algarve, Portugal. Aide aux démarches NIF, CRUE, compte bancaire, SNS, certificat de vie et immatriculation véhicule. Service humain, sans conseil juridique ni fiscal. Prestataire : Andreia, franco-portugaise native. Service 100% à distance : préparation dossier, guidance procédure, support téléphone/WhatsApp le jour du rendez-vous. Aucun déplacement d'Andreia. Tarifs à partir de 59€.
+
+## Guides piliers
+- [Aide francophone en Algarve](https://www.expatalgarve.fr/aide-francophone-algarve/) — Persona 1 : Français déjà en Algarve, 8 blocages administratifs et solutions
+- [Vivre en Algarve](https://www.expatalgarve.fr/vivre-en-algarve/) — Persona 2 : réflexion / rêverie (climat, villes, budget, pour et contre)
+- [S'installer en Algarve](https://www.expatalgarve.fr/s-installer-en-algarve/) — Persona 2 : organisation mois par mois depuis la France
 
 ## Services administratifs
-- [Aide NIF Portugal](https://www.expatalgarve.fr/services/nif-portugal/) — Accompagnement pour le Número de Identificação Fiscal
-- [Aide CRUE Portugal](https://www.expatalgarve.fr/services/crue-portugal/) — Certificat de Résidence de l'Union Européenne
-- [Ouverture compte bancaire](https://www.expatalgarve.fr/services/compte-bancaire/) — Dossier et accompagnement en agence
-- [Inscription SNS](https://www.expatalgarve.fr/services/sns-sante/) — Système national de santé portugais
-- [Certificat de vie](https://www.expatalgarve.fr/services/certificat-vie/) — Pour les caisses de retraite françaises
-- [Immatriculation véhicule](https://www.expatalgarve.fr/services/immatriculation/) — Changement de plaque et dossier IMT
-- [Pack installation complète](https://www.expatalgarve.fr/services/pack-installation/) — Toutes les démarches d'arrivée coordonnées
+- [Aide NIF Portugal](https://www.expatalgarve.fr/services/nif-portugal/) — Accompagnement pour le Número de Identificação Fiscal, 99€
+- [Aide CRUE Portugal](https://www.expatalgarve.fr/services/crue-portugal/) — Certificat de Résidence de l'Union Européenne, 99€
+- [Ouverture compte bancaire](https://www.expatalgarve.fr/services/compte-bancaire/) — Dossier KYC, je vous prépare et vous guide à distance, 179€
+- [Inscription SNS / Santé](https://www.expatalgarve.fr/services/sns-sante/) — Système national de santé portugais (inscription au système public), 89€
+- [Certificat de vie](https://www.expatalgarve.fr/services/certificat-vie/) — Pour les caisses de retraite françaises, 59€
+- [Immatriculation véhicule](https://www.expatalgarve.fr/services/immatriculation/) — Changement de plaque et dossier IMT, 249€
+- [Pack installation complète](https://www.expatalgarve.fr/services/pack-installation/) — Toutes les démarches d'arrivée coordonnées, 549€
 
 ## Tarifs
-- [Page tarifs](https://www.expatalgarve.fr/tarifs/) — NIF 79€, CRUE 99€, Banque 129€, Certificat vie 49€, Véhicule 149€, Pack 449€
+- [Page tarifs](https://www.expatalgarve.fr/tarifs/) — NIF 99€, CRUE 99€, Banque 179€, SNS / Santé 89€, Certificat vie 59€, Véhicule 249€, Pack 549€
 
 ## Blog guides pratiques
+- [Hub blog](https://www.expatalgarve.fr/blog/) — Guides piliers et démarches, un seul point d'entrée
 - [S'installer en Algarve à la retraite 2026](https://www.expatalgarve.fr/blog/s-installer-algarve-retraite-francais-guide-2026/)
-- [Comment obtenir son NIF au Portugal](https://www.expatalgarve.fr/blog/nif-portugal-comment-obtenir-guide/)
+- [Comment obtenir son NIF au Portugal](https://www.expatalgarve.fr/services/nif-portugal/)
 
 ## Contact
 - [Page contact](https://www.expatalgarve.fr/contact/) — Premier échange gratuit, réponse sous 24h
